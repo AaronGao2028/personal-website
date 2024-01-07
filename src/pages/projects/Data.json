@@ -14,7 +14,7 @@
     {
         "title":"Personal Website",
         "description": "React, TypeScript, CSS",
-        "image":"../../../public/images/projects/gameHub.png",
+        "image":"../../../public/images/projects/text.png",
         "path": "https://game--hub.vercel.app/"
     }
 ]
