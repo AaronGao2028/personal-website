@@ -21,7 +21,9 @@ const Navbar = () => {
         <a href="/blogs">Blogs</a>
         <a href="/experience">Experience</a>
         <a href="/projects">Projects</a>
-        <a href="/resume">Resume</a>
+        <a href="https://drive.google.com/file/d/1KQiL8WFklauch3ljy6u60lDy594KoGm4/view">
+          Resume
+        </a>
       </HStack>
     </HStack>
   );
