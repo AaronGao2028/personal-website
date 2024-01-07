@@ -7,6 +7,7 @@ import { Box, Flex, HStack, Heading, LinkBox, Spacer } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <HStack
+      color="white"
       justify={"space-between"}
       position="absolute"
       background={"#add8e6"}

@@ -39,7 +39,9 @@ const Footer = () => {
           color={isOnMailLogo ? "black" : "white"}
         />
       </HStack>
-      <Text fontSize={12}>Copyright © Aaron Gao 2023</Text>
+      <Text color="white" fontSize={12}>
+        Copyright © Aaron Gao 2023
+      </Text>
     </VStack>
   );
 };
