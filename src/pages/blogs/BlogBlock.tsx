@@ -30,7 +30,7 @@ const BlogBlock = ({ title, time, description, image, path }: Props) => {
       borderRadius={20}
       textColor="black"
       width="70vw"
-      background={isOnBlock ? "#gray" : "white"}
+      background={isOnBlock ? "gray" : "white"}
     >
       <VStack>
         <HStack>
