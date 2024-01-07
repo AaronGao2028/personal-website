@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div background-color="white">
       <Navbar />
 
       <VStack paddingTop="10px" paddingBottom="100px">
@@ -42,7 +42,7 @@ function App() {
       </VStack>
 
       <Footer />
-    </>
+    </div>
   );
 }
 
