@@ -10,6 +10,7 @@ import {
 import stockMasterImage from "../../../public/images/projects/stockMasterList.png";
 import ProjectBlock from "./ProjectBlock";
 import Data from "./Data.json";
+import BlogBlock from "./BlogBlock";
 
 const Projects = () => {
   return (
@@ -17,11 +18,12 @@ const Projects = () => {
       <Heading marginBottom={10}>PROJECTS</Heading>
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 3, xl: 4 }} spacing={6}>
         {Data.map((data) => (
-          <ProjectBlock
+          <BlogBlock
+            path={data.path}
             title={data.title}
+            time={data.time}
             description={data.description}
             image={data.image}
-            path={data.path}
           />
         ))}
       </SimpleGrid>

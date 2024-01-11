@@ -3,18 +3,21 @@
         "title":"Stock Master",
         "description": "Java Spring Boot, PostgreSQL, React",
         "image":"../../../public/images/projects/stockMasterList.png",
-        "path": "https://github.com/AaronGao2028/stock-master"
+        "path": "https://github.com/AaronGao2028/stock-master",
+        "time": "123"
     },
     {
         "title":"Game Hub",
         "description": "React, TypeScript, CSS",
         "image":"../../../public/images/projects/gameHub.png",
-        "path": "https://game--hub.vercel.app/"
+        "path": "https://game--hub.vercel.app/",
+        "time": "123"
     },
     {
         "title":"Personal Website",
         "description": "React, TypeScript, CSS",
         "image":"../../../public/images/projects/text.png",
-        "path": "https://game--hub.vercel.app/"
+        "path": "https://game--hub.vercel.app/",
+        "time": "123"
     }
 ]
