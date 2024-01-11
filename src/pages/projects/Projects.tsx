@@ -21,6 +21,7 @@ const Projects = () => {
             description={data.description}
             image={data.image}
             path={data.path}
+            skills={data.skills}
           />
         ))}
       </SimpleGrid>

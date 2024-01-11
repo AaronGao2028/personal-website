@@ -6,9 +6,10 @@ interface Props {
   description: string;
   image: string;
   path: string;
+  skills: string;
 }
 
-const ProjectBlock = ({ title, description, image, path }: Props) => {
+const ProjectBlock = ({ title, description, image, path, skills }: Props) => {
   const [isOnBlock, setIsOnBlock] = useState(false);
 
   return (
@@ -21,18 +22,22 @@ const ProjectBlock = ({ title, description, image, path }: Props) => {
       color="black"
       background={isOnBlock ? "#3f5766" : "#728a99"}
     >
-      <Heading marginTop={5} fontSize={"30px"}>
-        {title}
-      </Heading>
-      <Text>{description}</Text>
       <Image
+        marginTop={10}
         marginBottom={5}
         marginLeft={5}
         marginRight={5}
         borderRadius={10}
         src={image}
-        height="150px"
+        width="250px"
       />
+      <Heading marginTop={3} fontSize={"30px"}>
+        {title}
+      </Heading>
+      <Heading fontSize={""}>{skills}</Heading>
+      <Text marginLeft={4} marginRight={4} marginBottom={5}>
+        {description}
+      </Text>
     </VStack>
   );
 };
