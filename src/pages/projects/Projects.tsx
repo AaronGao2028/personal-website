@@ -7,7 +7,6 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
-import stockMasterImage from "../../../public/images/projects/stockMasterList.png";
 import Data from "./Data.json";
 import ProjectBlock from "./ProjectBlock";
 
