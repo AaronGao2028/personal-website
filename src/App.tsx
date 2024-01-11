@@ -28,14 +28,14 @@ function App() {
             />
             <Route path="/experience" element={<Experience />} />
             <Route
-              path="/blogs/How-I-Got-Into-Waterloo-Computer-Science"
+              path="/How-I-Got-Into-Waterloo-Computer-Science"
               element={<HowIGotIntoWaterlooComputerScience />}
             />
             <Route
-              path="/blogs/Reflection-Of-My-1A-Term-At-Waterloo"
+              path="/Reflection-Of-My-1A-Term-At-Waterloo"
               element={<ReflectionOfMy1ATermAtWaterloo />}
             />
-            <Route path="/blogs/My-Trip-To-China" element={<MyTripToChina />} />
+            <Route path="/My-Trip-To-China" element={<MyTripToChina />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </BrowserRouter>

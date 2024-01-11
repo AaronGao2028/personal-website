@@ -1,9 +1,6 @@
 import { Heading, Image, Text, VStack } from "@chakra-ui/react";
-import averageDistribution from "../../../public/images/averageDistribution.png";
 import PhotoBooth from "../../components/PhotoBooth";
 import PhotoData from "./photoData/ReflectionOfMy1ATermAtWaterloo.json";
-import BlogBlock from "./BlogBlock";
-import Blog from "./Blogs";
 
 const ReflectionOfMy1ATermAtWaterloo = () => {
   return (

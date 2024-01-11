@@ -7,6 +7,7 @@ import {
   background,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import { useHref, useNavigate } from "react-router-dom";
 
 interface Props {
   title: string;
@@ -18,6 +19,7 @@ interface Props {
 
 const BlogBlock = ({ title, time, description, image, path }: Props) => {
   const [isOnBlock, setIsOnBlock] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <HStack
@@ -25,7 +27,7 @@ const BlogBlock = ({ title, time, description, image, path }: Props) => {
       cursor={"pointer"}
       onMouseEnter={() => setIsOnBlock(true)}
       onMouseLeave={() => setIsOnBlock(false)}
-      onClick={() => window.open(path)}
+      onClick={() => navigate(path)}
       marginBottom={3}
       borderRadius={20}
       textColor="black"

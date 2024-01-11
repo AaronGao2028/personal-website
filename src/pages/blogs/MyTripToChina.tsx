@@ -1,5 +1,4 @@
 import { Heading, Image, Text, VStack } from "@chakra-ui/react";
-import averageDistribution from "../../../public/images/averageDistribution.png";
 import PhotoBooth from "../../components/PhotoBooth";
 import PhotoData from "./photoData/MyTripToChina.json";
 

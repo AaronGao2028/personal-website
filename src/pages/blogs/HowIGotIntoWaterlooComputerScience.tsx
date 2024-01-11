@@ -94,7 +94,6 @@ const HowIGotIntoWaterlooComputerScience = () => {
           </Text>
         </VStack>
       </VStack>
-
       <PhotoBooth photos={PhotoData} date="June 31" />
     </>
   );
