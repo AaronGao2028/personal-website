@@ -36,7 +36,7 @@ function App() {
               element={<ReflectionOfMy1ATermAtWaterloo />}
             />
             <Route path="/blogs/My-Trip-To-China" element={<MyTripToChina />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<Blogs />} />
           </Routes>
         </BrowserRouter>
       </VStack>
