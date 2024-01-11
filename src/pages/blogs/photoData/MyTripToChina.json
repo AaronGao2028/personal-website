@@ -1,14 +1,14 @@
 [
     {
-        "image": "../../../public/images/myTripToChina/myTripToChina1.jpg",
+        "image": "images/myTripToChina/myTripToChina1.jpg",
         "description": "Ready for takeoff."
     }, 
     {
-        "image": "../../../public/images/myTripToChina/myTripToChina3.jpg",
+        "image": "images/myTripToChina/myTripToChina3.jpg",
         "description": "Long time no see. 15 years since I last saw my cousin!"
     },
     {
-        "image": "../../../public/images/myTripToChina/myTripToChina2.jpg",
+        "image": "images/myTripToChina/myTripToChina2.jpg",
         "description": "Grand Hotel in Tapei"
     }
 ]

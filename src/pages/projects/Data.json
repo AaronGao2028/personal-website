@@ -12,6 +12,12 @@
         "path": "https://game--hub.vercel.app/"
     },
     {
+        "title":"Python AlgoTrader",
+        "description": "Python, Jupyter Notebook",
+        "image":"images/projects/pythonAlgoTrader.png",
+        "path": "https://github.com/AaronGao2028/python-algotrader/blob/master/PythonAlgoTrader.ipynb"
+    },
+    {
         "title":"Personal Website",
         "description": "React, TypeScript, CSS",
         "image":"images/projects/text.png",

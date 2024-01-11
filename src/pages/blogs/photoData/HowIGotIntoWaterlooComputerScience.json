@@ -1,14 +1,14 @@
 [
     {
-        "image": "../../../public/images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience1.webp",
+        "image": "images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience1.webp",
         "description": "Mr. Graduate: 4 Years for a Piece of Paper!"
     }, 
     {
-        "image": "../../../public/images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience2.png",
+        "image": "images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience2.png",
         "description": "Mr. Graduate: 4 Years for a Piece of Paper!"
     },
     {
-        "image": "../../../public/images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience3.png",
+        "image": "images/howIGotIntoWaterlooComputerScience/howIGotIntoWaterlooComputerScience3.png",
         "description": "Mr. Graduate: 4 Years for a Piece of Paper!"
     }
 ]

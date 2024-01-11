@@ -31,7 +31,7 @@ const ProjectBlock = ({ title, description, image, path }: Props) => {
         marginRight={5}
         borderRadius={10}
         src={image}
-        height="175px"
+        height="150px"
       />
     </VStack>
   );
