@@ -2,6 +2,6 @@
 
 **Description**
 
-This is my personal website showcasing my blogs, experience, and projects. It was made using React + TypeScript and is currently being hosted on Vercel.
+Personal website displaying my blogs, experience, and project, created using React and Chakra UI. It is currently being hosted on DigitalOcean, the domain name is being leased from Domain.com for $17 a year.
 
-Visit my Personal Website: https://aarongao.vercel.app/
+Visit my Personal Website: https://aarongao.ca
