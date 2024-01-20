@@ -15,10 +15,15 @@ const Navbar = () => {
       left="0"
       top="0"
     >
-      <Heading marginLeft="50px" fontSize={"25px"}>
-        <a href="/">AARON GAO</a>
+      <Heading marginLeft="200px" fontSize={"30px"} fontFamily={"Arial"}>
+        AARON GAO
       </Heading>
-      <HStack spacing={5} marginRight="50px">
+      <HStack
+        spacing={5}
+        marginRight="50px"
+        fontSize={"20px"}
+        fontFamily={"Arial"}
+      >
         <a href="/blogs">Blogs</a>
         <a href="/experience">Experience</a>
         <a href="/projects">Projects</a>

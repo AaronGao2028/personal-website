@@ -27,7 +27,7 @@ const ExperienceBlock = ({
       marginBottom={3}
       borderRadius={20}
       textColor="black"
-      width="70vw"
+      width={{ sm: "100vw", md: "90vw", lg: "70vw", xl: "60vw" }}
       background={"white"}
     >
       <VStack>
@@ -40,7 +40,11 @@ const ExperienceBlock = ({
             </Heading>
             <UnorderedList marginLeft={10} textAlign={"left"} fontSize="13px">
               {description.map((item) => (
-                <ListItem>{item}</ListItem>
+                <ListItem
+                  fontSize={{ sm: "9px", md: "10px", lg: "12px", xl: "14px" }}
+                >
+                  {item}
+                </ListItem>
               ))}
             </UnorderedList>
           </VStack>

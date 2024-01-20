@@ -31,7 +31,7 @@ const BlogBlock = ({ title, time, description, image, path }: Props) => {
       marginBottom={3}
       borderRadius={20}
       textColor="black"
-      width="70vw"
+      width={{ sm: "90vw", md: "80vw", lg: "70vw", xl: "70vw" }}
       background={isOnBlock ? "gray" : "white"}
     >
       <VStack>

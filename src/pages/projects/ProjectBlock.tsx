@@ -22,21 +22,28 @@ const ProjectBlock = ({ title, description, image, path, skills }: Props) => {
       color="black"
       background={isOnBlock ? "#3f5766" : "#728a99"}
     >
+      <Heading
+        color={isOnBlock ? "white" : "black"}
+        marginTop={3}
+        fontSize={"30px"}
+      >
+        {title}
+      </Heading>
+      <Heading color={isOnBlock ? "white" : "black"} fontSize={""}>
+        {skills}
+      </Heading>
+
       <Image
-        marginTop={10}
         marginBottom={5}
         marginLeft={5}
         marginRight={5}
         borderRadius={10}
         src={image}
-        width="250px"
+        width="350px"
       />
-      <Heading marginTop={3} fontSize={"30px"}>
-        {title}
-      </Heading>
-      <Heading fontSize={""}>{skills}</Heading>
-      <Text marginLeft={4} marginRight={4} marginBottom={5}>
-        {description}
+
+      <Text color="white" marginLeft={4} marginRight={4} marginBottom={5}>
+        {isOnBlock ? description : ""}
       </Text>
     </VStack>
   );

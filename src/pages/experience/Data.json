@@ -1,9 +1,16 @@
 [
     {
+        "title": "Software Developer @ Watonamous",
+        "location": "Waterloo, Canada",
+        "time":"September 2023 - Present",
+        "description":["Implemented navigation system for autonomous vehicle based on sensor data obtained using ROS2 Framework.", "Developed motion control algorithms with C++ to effectively guide vehicle through potential obstacles.", "Reproduced test environment across platforms using Docker, ensuring reliable deployment on cloud servers."],
+        "image":"images/experience/watonomousLogo.jpg"
+    },
+    {
         "title":"Software Developer @ Waterloop",
         "location":"Waterloo, Canada",
         "time":"September 2023 - Present",
-        "description": ["Developed a contact form using React, facilitating prospective donors in submitting their details and establishing communication with our team.", "Conducted testing and executed a responsive web design to guarantee optimal scaling of the website across various screen sizes."],
+        "description": ["Implemented a custom data hook utilizing JavaScript, retrieving inventory data from the Waterloop API and displaying the information on the website’s product page.","Conducted testing and executed a responsive web design using React to guarantee optimal scaling of the website across various screen sizes.", "Developed a contact form facilitating prospective donors to submit their details and initiate communication with our team"],
         "image": "images/experience/waterloopLogo.png"
     },
     {

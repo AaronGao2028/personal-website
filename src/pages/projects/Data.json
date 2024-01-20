@@ -2,28 +2,28 @@
     {
         "title":"Stock Master",
         "description": "Full Stack application using Spring Boot Framework that generates cutomized stock portfolio based on user's preference of market cap, sector exposure, and dividend yield.",
-        "skills": "Java Spring Boot, PostgreSQL, React",
+        "skills": "Spring Boot Framework, Java, PostgreSQL, React",
         "image":"images/projects/stockMasterList.png",
         "path": "https://github.com/AaronGao2028/stock-master"
     },
     {
         "title":"Game Hub",
         "description": "Video game navigation platform that uses React for its front end interface and TypeScript to make API calls to the RAWG API, fetching game information.",
-        "skills": "React, TypeScript, CSS",
+        "skills": "React, TypeScript, Chakra UI",
         "image":"images/projects/gameHub.png",
         "path": "https://game--hub.vercel.app/"
     },
     {
         "title":"Python AlgoTrader",
         "description": "Python script that analyzes historical data and uses the intersection of moving averages to determines the optimal entry and exit of a position",
-        "skills": "Python, Jupyter Notebook",
+        "skills": "Python, Pandas, Matplotlib, Jupyter Notebook",
         "image":"images/projects/pythonAlgoTrader.png",
         "path": "https://github.com/AaronGao2028/python-algotrader/blob/master/PythonAlgoTrader.ipynb"
     },
     {
         "title":"Personal Website",
         "description": "Personal website created using React showcasing my blogs, experience, and projects.",
-        "skills": "React, TypeScript, CSS",
+        "skills": "React, TypeScript, Chakra UI",
         "image":"images/projects/text.png",
         "path": "https://aarongao.vercel.app/"
     }
