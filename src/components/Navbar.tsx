@@ -27,7 +27,7 @@ const Navbar = () => {
         <a href="/blogs">Blogs</a>
         <a href="/experience">Experience</a>
         <a href="/projects">Projects</a>
-        <a href="https://drive.google.com/file/d/1RadM4bTOBNQu3adhjQIHwoEM0RSmcEWb/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1HGI9gYRvSfAPXm1mKNoI8yKH5ZPcdZP5/view?usp=sharing">
           Resume
         </a>
       </HStack>
