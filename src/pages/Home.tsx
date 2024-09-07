@@ -1,5 +1,5 @@
 import { HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
-import profile from "../../public/images/profile.jpg";
+import profile from "../../public/images/profile_pic.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Home = () => {
