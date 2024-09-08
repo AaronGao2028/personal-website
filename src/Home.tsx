@@ -23,10 +23,8 @@ const Home = () => {
   return (
     <>
       <HStack>
-        <Image
-          borderRadius={50}
+        <img
           src={profile}
-          height={{ sm: "50px", md: "70px", lg: "100px", xl: "100px" }}
         />
         <Heading fontSize={{ sm: "10px", md: "20px", lg: "30px", xl: "40px" }}>
           Hi, my name is Aaron!
@@ -40,12 +38,7 @@ const Home = () => {
         <Cursor cursorStyle="|" />
       </Heading>
 
-      <Text
-        marginTop={5}
-        fontSize={{ sm: "10px", md: "20px", lg: "15px", xl: "15px" }}
-        textAlign={"left"}
-        width={500}
-      >
+      <p>
         Hi there, thanks for visiting my personal website! I am a
         student at the University of Waterloo pursuing a degree in
         Computer Science currently on my 2A study term. I enjoy building
@@ -53,7 +46,7 @@ const Home = () => {
         powerlifting. Perhaps you would like to see my resume, 
         connect with me on LinkedIn, or check out my projects on
         Github. All of which you can find below 🙂
-      </Text>
+      </p>
 
       <button onClick={openResume}>Resume</button>
       <button onClick={openLinkedIn}>LinkedIn</button>
