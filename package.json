@@ -17,6 +17,7 @@
     "chakra": "^0.0.3",
     "framer-motion": "^10.17.9",
     "motion-frame": "^2.0.2",
+    "personal-website": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
