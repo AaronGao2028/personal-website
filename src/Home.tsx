@@ -48,6 +48,7 @@ const Home = () => {
         Github. All of which you can find below 🙂
       </p>
 
+      <a href="images/Resume.pdf" target="_blank">Resume</a>
       <button onClick={openResume}>Resume</button>
       <button onClick={openLinkedIn}>LinkedIn</button>
       <button onClick={openGitHub}>GitHub</button>
