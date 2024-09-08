@@ -3,7 +3,7 @@ import profile from "../images/profile_pic.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const openResume = () => {
-  window.open("images/Resume.pdf");    
+  window.open("https://drive.google.com/file/d/1Cf-5SjBb2imhXcOGCrmxeWtc_HftxZaM/view?usp=sharing");    
 }
 
 const openLinkedIn = () => {
@@ -48,7 +48,6 @@ const Home = () => {
         Github. All of which you can find below 🙂
       </p>
 
-      <a href="images/Resume.pdf" target="_blank">Resume</a>
       <button onClick={openResume}>Resume</button>
       <button onClick={openLinkedIn}>LinkedIn</button>
       <button onClick={openGitHub}>GitHub</button>
